@@ -1,0 +1,29 @@
+.typewritter__cover {
+  font-family: SpaceX;
+  color: #fff;
+  font-size: 48px;
+  /* padding: 25px; */
+  text-shadow: 2px 2px 3px #fff;
+  border: 6px double #fff;
+  box-shadow: 0 0 5px #fff;
+  border-radius: 5px;
+  margin: 15px 25px;
+  padding: 20px 25px;
+  /* min-width: 100%; */
+  min-height: 120px;
+}
+
+/* .typewritter__cover::after {
+  content: "";
+  border: 2px solid red;
+  height: 50px;
+  min-width: 100px;
+  padding: 0 100%;
+  /* overflow: hidden; */
+/* } */
+
+@media screen and (max-width: 768px) {
+  .typewritter__cover {
+    font-size: 24px;
+  }
+}

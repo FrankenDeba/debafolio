@@ -16,12 +16,23 @@
   }
 }
 
+@font-face {
+  font-family: "SpaceX";
+  src: local("SpaceX"), url("../app/assets/fonts/SpaceX.ttf") format("ttf"),
+    url("../app/assets/fonts/SpaceX.ttf") format("ttf");
+}
+
 body {
+  margin: 0 !important;
+  padding: 0 !important;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background-image: url("./assets/_.gif");
+  background-size: cover;
+  background-position: center;
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }

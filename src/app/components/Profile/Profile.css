@@ -1,0 +1,23 @@
+.prof_cover {
+  z-index: 500;
+  /* width: 150px;
+  height: 150px; */
+  /* border-radius: 50%; */
+  /* border: 2px solid red; */
+  margin-top: 100px;
+}
+
+.prof_cover img {
+  overflow: hidden;
+
+  box-shadow: 0 0 5px #000;
+  /* width: 100%;
+  height: 100%; */
+}
+
+.tp {
+  border: 2px solid red;
+  width: 150px;
+  height: 250px;
+  margin: 50px;
+}
